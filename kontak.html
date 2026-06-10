@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami | Web Siswa Kreatif</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER & NAVIGASI -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>saskia<span>amelia</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="kontak.html" class="active">Kontak</a></li>
+                </ul>
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT - KONTAK & CTA -->
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1> Hubungi Saya</h1>
+                <p>Ada pertanyaan? Ingin kerja sama? Silakan isi form atau chat langsung!</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container contact-container">
+                <!-- Bagian Kiri: Informasi Kontak & CTA -->
+                <div class="contact-info">
+                    <h2>Mari Terhubung!</h2>
+                    <p>Saya siap membantu proyek website atau desain yang Anda butuhkan. Respon
+                        cepat dalam 1x24 jam.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-icon"> </span>
+                            <div>
+                                <h4>WhatsApp (Fast Response)</h4>
+                                <p>+62 856 9499 0454</p>
+                                <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Karya%20Siswa!"
+                                    class="btn btn-wa" target="_blank">
+                                    Chat via WhatsApp Sekarang!
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-icon"> </span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>saskia.ameliam@belajar.id</p>
+                                <p class="note">*Balasan dalam 1x24 jam kerja</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-icon"> </span>
+                            <div>
+                                <h4>Alamat Studio</h4>
+                                <p>Jl. Mawar No. 23, Menteng</p>
+                                <p>Jakarta Pusat, DKI Jakarta 10310</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cta-box">
+                        <h3>Butuh Bantuan Cepat?</h3>
+                        <p>Klik tombol WhatsApp di atas untuk konsultasi GRATIS seputar produk dan
+                            jasa!</p>
+                        <p class="cta-highlight"> Online: Senin - Sabtu, 09.00 - 20.00 WIB</p>
+                    </div>
+                </div>
+
+                <!-- Bagian Kanan: Form Kontak -->
+                <div class="contact-form-container">
+                    <h2>Kirim Pesan Langsung</h2>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Contoh: Budi 
+Santoso" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subjek / Perihal</label>
+                            <input type="text" id="subject" name="subject" placeholder="Tanya produk 
+/ Kerja sama">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan Anda <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tulis pertanyaan atau pesan Anda di sini..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product-interest">Produk yang Diminati</label>
+                            <select id="product-interest" name="product-interest">
+                                <option value="">-- Pilih Produk --</option>
+                                <option value="template">Template Website</option>
+                                <option value="poster">Desain Poster</option>
+                                <option value="kaos">Kaos Coding</option>
+                                <option value="ebook">E-Book CSS</option>
+                                <option value="stiker">Stiker Developer</option>
+                                <option value="jasa">Jasa UI/UX</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Kirim Pesan Sekarang</button>
+                        <p class="form-note">* Form ini untuk simulasi. Data tidak akan terkirim ke
+                            server.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAP SECTION (Placeholder) -->
+        <section class="map-section">
+            <div class="container">
+                <div class="map-placeholder">
+                    <p> Lokasi Studio Karya Siswa (Placeholder Peta)</p>
+                    <!-- Bisa diganti dengan embed Google Maps -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p>&copy; 2026 Karya Siswa. Dibuat dengan menggunakan HTML & CSS murni.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Beranda</a>
+                <a href="profil.html">Profil</a>
+                <a href="store.html">Store</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // Alert saat form disubmit (simulasi) 
+        const form = document.querySelector('.contact-form');
+        if (form) {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('   Pesan Anda telah terkirim! (Simulasi)\n\nTerima kasih telah menghubungi Karya Siswa.Kami akan membalas melalui email Anda secepatnya.'); 
+                form.reset();
+            });
+        } 
+    </script>
+</body>
+
+</html>
